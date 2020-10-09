@@ -14,7 +14,7 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: 5s;
+    transition: 5s;  /* risposta ex.2 */
 }
 
 /* risposta ex.2 */
@@ -22,16 +22,31 @@
 .ex-2-square:active {
   width: 100%
 }
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s; /*risposta ex3 */
 }
+/*risposta ex3 */
+.ex-3-square:hover {
+  border-radius: 100%;
+}
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 3s; /*risposta ex4 */
 }
+/*risposta ex4 */
+.ex-4-square:hover {
+  background: none;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
