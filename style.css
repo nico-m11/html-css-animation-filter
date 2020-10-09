@@ -97,16 +97,39 @@
 
 .ex-10-icon {
     font-size: 60px;
-    transition: rotate 2s
+    animation: rota 3s infinite; /*risposta ex10 */
 }
+
 /*risposta ex10 */
-.ex-10-icon:hover {
- rotate: 360deg;
+@keyframes rota {
+  0% {
+    transform: rotate(360deg);
+  }
 }
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+  animation: spin 5s linear;
+}
+
+@keyframes spin {
+
+  0% {
+    transition: (0deg)
+  }
+
+  70% {
+    transition: (270deg)
+  }
+
+  100% {
+    transition: (0deg)
+  }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
