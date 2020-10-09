@@ -52,18 +52,58 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: 3s; /*risposta ex5 */
 }
+/*risposta ex5 */
+.ex-5-square:hover {
+  transform: scale(2);
+}
+/*risposta ex5 */
+.ex-5-square:active {
+  transform: scale(0.5);
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+}
+  /*risposta ex6 */
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+/*risposta ex7 */
+.ex-7-img:hover {
+    filter: invert(1);
+    transition: 3s;
+}
+/*risposta ex8 */
+.ex-8-img:hover {
+  filter: invert(1);
+  transition: 2s;
+  border-radius: 10%;
 }
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+/*risposta ex9 */
+.ex-9-img:hover {
+  filter: grayscale(1);
+  border-radius: 10%;
+  transition: 3s;
+  transform: scale(0.5);
+}
+
+
 .ex-10-icon {
     font-size: 60px;
+    transition: rotate 2s
 }
+/*risposta ex10 */
+.ex-10-icon:hover {
+ rotate: 360deg;
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
